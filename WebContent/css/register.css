@@ -1,0 +1,33 @@
+.well{
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width:550px;
+	height: 530px;
+	margin: auto;
+	text-align: center;
+}
+p{
+	margin-top: 20px;
+}
+.shuzi{
+	color: #ccc;
+	font-size: 14px;
+
+}
+.well .email_i,.username_i,.password_i,button{
+	height: 73px;
+	border: 1px solid #292525;
+	border-radius: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+#klogin{
+	margin-top: 10px;
+	font-size: 16px !important;
+	font-weight: 400;
+}
+button{
+	background-color:#292525;
+	color: #fff; 
+}

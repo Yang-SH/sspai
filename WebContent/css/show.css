@@ -1,0 +1,410 @@
+a {
+    color: #292525;
+    text-decoration: none;
+}
+.main{
+	padding-right: 200px;
+	padding-left: 200px;
+}
+.article-detail .banner {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.article-detail img {
+    max-width: 100%;
+}
+img {
+    border-style: none;
+}
+.article-detail .title {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 2rem;
+    line-height: 1.40625;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 寰蒋闆呴粦, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", Arial, sans-serif;
+}
+.article-detail .meta {
+    margin-bottom: 30px;
+}
+.article-detail .meta .user-card {
+    display: inline-block;
+    margin-right: 40px;
+}
+.avatar {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.article-detail .meta .user-card h4 {
+    margin-right: 20px;
+}
+.user-card h4 {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 8px;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1.66666667;
+}
+.user-card h4 a{
+	color: #292525;
+}
+.user-card h4 a:hover{
+	color: #D7191A;
+}
+.user-card time {
+    vertical-align: middle;
+    font-size: 12px;
+    font-size: 0.75rem;
+}
+.user-card time {
+    color: #9B9B9B;
+    font-size: 12px;
+    font-size: 0.75rem;
+}
+.article-detail .meta .actions {
+    display: inline-block;
+}
+.article-detail .meta .actions span {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-right: 5px;
+}
+.actions{
+	margin-left: 30px;
+}
+.actions a{
+	text-decoration: none;
+}
+.like-views .glyphicon {
+    margin-right: 4px;
+}
+.i-like {
+    width: 18px;
+    height: 18px;
+    /*background-image: url(../images/i_like.png);*/
+}
+.glyphicon {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    content: ' ';
+}
+.like-views sup {
+    position: static;
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+}
+sup {
+    top: -.1em;
+}
+.glyphicon-comment,.glyphicon-heart-empty{
+    color: #9B9B9B;
+}
+.like-view sup,.btn-comment sup {
+	color: #9B9B9B;
+    position: static;
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+}
+.btn-comment .i-comment:hover{
+	color: #000;
+}
+.wangEditor-txt {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin-top: 5px;
+    /* font-family: PingFang SC, Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, PingFang-SC-Regular, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    /* font-weight: 400; */
+    line-height: 26px;
+    word-break: normal;
+    word-wrap: break-word;
+}
+.wangEditor-txt p {
+    /* margin: 30px 0; */
+    margin: 0 0 20px 0;
+    line-height: 26px;
+}
+.wangEditor-txt a {
+    text-decoration: none;
+    border-bottom: 1px solid #4A4A4A;
+    color: #292525;
+}
+.wangEditor-txt a:hover {
+	border-bottom: 1px solid #D7191A;
+    color: #D7191A;
+}
+.ss-img-wrapper {
+    position: relative;
+    text-align: center;
+    outline: none;
+    /* margin: 0; */
+    margin: 0 0 30px 0;
+}
+
+figure {
+    margin: 1em 40px;
+}
+.wangEditor-txt img {
+    max-width: 100%;
+}
+.article-detail img {
+    max-width: 100%;
+}
+img {
+    border-style: none;
+}
+.ss-app-card {
+    background: #FFFFFF;
+    border: 1px solid #DBE2E8;
+    box-shadow: 0 1px 2px 0 rgba(46, 60, 73, 0.08);
+    border-radius: 2px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 154px;
+    box-sizing: border-box;
+}
+.ss-app-card .ss-left {
+    margin-right: 32px;
+}
+.ss-app-card .ss-right {
+    flex: auto;
+    position: relative;
+}
+.ss-app-card .ss-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.wangEditor-txt .ss-app-card h4 {
+    margin: 0;
+}
+.ss-app-card h4 {
+    font-size: 18px;
+    color: #292525;
+    letter-spacing: 0;
+    margin: 0;
+}
+.ss-app-card .ss-right p {
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    margin: 0;
+    line-height: 2;
+}
+.ss-app-card .ss-right .more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    text-decoration: none;
+    border: none;
+}
+.ss-app-card .ss-right .ss-dropdown {
+    width: 118px;
+    position: relative;
+}
+.tags {
+    margin: 25px 0;
+}
+.tags .label-default{
+	background-color: #E6E6E6;
+}
+.tags .label_child{
+	color: #A09F9B;
+}
+.tags .label_child:hover{
+	color: #D7191A;
+}
+.copyright {
+    font-size: 12px;
+    font-size: 0.75rem;
+    padding: 32px 31px;
+    color: #4A4A4A;
+    text-align: center;
+}
+.action-region {
+    padding-bottom: 40px;
+    margin-top: 45px;
+    text-align: right;
+}
+.action-region .btn-like {
+    float: left;
+    margin-top: -3px;
+    font-size: 14px;
+    font-size: .875rem;
+    display: inline-block;
+    border-radius: 100px;
+    padding: 10px 25px;
+    border: 1px solid #000;/*按钮边框的颜色  */
+    background-color: #fff;
+    color: #000;/*按钮中字体的颜色  */
+}
+.glyphicon-heart-empty{
+	 color: #000;/* 心的颜色 */
+}
+.action-region .btn-like sup {
+    position: static;
+    font-size: inherit;
+    margin-left: 4px;
+}
+sup {
+    top: -.5em;
+}
+.affiliate-info {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.affiliate-info>.item {
+    flex: 1;
+}
+.affiliate-info>.item .image img {
+    border-radius: 50%;
+}
+
+.avatar img {
+    display: block;
+    border-radius: 50%;
+}
+.article-detail img {
+    max-width: 100%;
+}
+.affiliate-info>.item .body {
+    overflow: hidden;
+    padding-right: 30px;
+}
+.affiliate-info .item{
+	display:-webkit-box;
+    display:box;
+}
+.affiliate-info>.item .body h4 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+.affiliate-info>.item .body p {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.42857143;
+    color: #4A4A4A;
+}
+.affiliate-info>.item .body .btn {
+    margin-top: 15px;
+}
+html .btn-default {
+    border: 1px solid #292525;
+    background-color: #fff;
+    color: #292525;
+}
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 7px 24px;
+    color: #fff;
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+.btn:hover{
+	background-color: #000;
+	color:#fff;
+}
+.article-detail .comment-box {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.comment-box .comment-form>.avatar {
+    float: left;
+    margin-right: 20px;
+}
+.comment-box .comment-form>section {
+    overflow: hidden;
+    text-align: right;
+}
+.el-textarea textarea {
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+}
+.comment-box .comment-form>section .el-textarea__inner {
+    padding: 16px 20px;
+}
+textarea.text, html .el-textarea__inner {
+    resize: vertical;
+    line-height: 1.6;
+    resize: none;
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+html .btn-danger {
+	float: right;
+	margin-top: 20px;
+    border: 1px solid #292525;
+    background-color: #292525;
+    color: #fff;
+}
+html .btn-danger:hover{
+	background-color:#fff;
+    color:  #292525;
+}
+.comment-list {
+    padding: 0;
+    margin: 0;
+}
+.comment-item {
+	display:-webkit-box;
+    display:box;
+    list-style: none;
+    padding-bottom: 12px;
+    padding-top: 15px;
+}
+.comment-item section {
+    overflow: hidden;
+}
+.comment-item section h5 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.375;
+    color: #9B9B9B;
+    margin: 0 0 6px;
+}
+.comment-item section .body {
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #4A4A4A;
+    line-height: 1.42857143;
+    margin-bottom: 20px;
+}
+.comment-item section .ext {
+    font-size: 12px;
+    font-size: 0.75rem;
+    color: #9B9B9B;
+    text-align: right;
+}
+.comment-item section .ext time {
+    float: left;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.TopicDAO">
+
+	<resultMap type="entity.Topic" id="topicRM">
+		<id property="id" column="topic_id" />
+		<result property="name" column="topic_name" />
+		<result property="article_num" column="article_num" />
+		<result property="pic_path" column="pic_path" />
+		<result property="stats" column="topic_stats" />
+	</resultMap>
+	
+	<select id="findTopicById" resultMap="topicRM" >
+		SELECT 
+			id topic_id,
+			name topic_name,
+			article_num article_num,
+			pic_path pic_path,
+			stats topic_stats
+		FROM 
+			topic
+		WHERE 
+		id = #{id}
+	</select>
+	
+	<select id="findTopicByUserId" resultMap="topicRM" >
+		SELECT 
+			id topic_id,
+			name topic_name,
+			article_num article_num,
+			pic_path pic_path,
+			stats topic_stats
+		FROM 
+			topic
+		WHERE 
+		id in (
+			select topic_id
+			from attention_topic
+			where user_id = #{userid}
+		)
+	</select>
+	
+	<update id="updateTopic">
+		update topic 
+			set 
+			name = #{name},
+			article_num = #{article_num},
+			pic_path = #{pic_path},
+			is_suggest = #{is_suggest},
+			stats = #{stats}
+		where 
+			id = #{id}
+	</update>
+	
+	<select id="findByPageBean" parameterType="entity.PageBean" resultMap="topicRM">
+		SELECT 
+			id topic_id,
+			name topic_name,
+			article_num article_num,
+			pic_path pic_path,
+			stats topic_stats
+		FROM 
+			topic 
+			LIMIT #{start},#{pageSize}
+	</select>
+
+</mapper>

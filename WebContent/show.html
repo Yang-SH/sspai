@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="sspai">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="Codeply">
+	
+	<title>少数派</title>
+	
+	<link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<link rel="stylesheet" type="text/css" href="css/show.css">
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+</head>
+<body style="background-color:#FAFBFC">
+	<!-- 登录 -->
+	<div id="myModal" class="modal fade">
+    	<div class="modal-dialog">  	
+            <form method="post" action="#">
+	            <div class="modal-body">
+		            <button id="cha" type="button" class="close" data-dismiss="modal">×</button>
+		            <h2 style="text-align: center;">
+					<img src="images/3.jpg"/>
+		            <strong>少数派</strong></h2>
+		            <div class="text-right"><a style="text-decoration: none;" href="register.html">+注册</a></div>
+		            <br>
+		            <div class="form-group">
+		            	<input class="form-control" type="email" placeholder="邮箱" name="email" />
+		            </div>
+	            	<div class="form-group">
+		            	<input class="form-control" type="password" placeholder="密码" name="password" />
+		            </div>
+		            <div class="form-group text-left">
+		            	<label id="klogin" for="keepLogin">
+		            		<input style="height: auto;" type="checkbox" id="keepLogin"/>&nbsp;记住密码
+		            	</label>
+		            	<a class="pull-right" href="#">
+		            	忘记密码</a>
+		            </div>
+		            <div class="form-group">
+		            	<button style="outline: none;" id="login_btn" class="btn" type="submit">登录</button>
+		            </div>
+	            </div>
+            </form>
+            <div class="modal-footer">
+				<div class="text-center">
+					<div class="xinlang">
+						<img class="xinlang img-circle img-responsive" src="images/5.jpg">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img class="weixin img-circle img-responsive" src="images/4.jpg">
+					</div>
+					<p></p>
+					<span>用社交帐号快捷登录</span>
+				</div>
+            </div>
+        </div>
+    </div>
+    <!-- 登录 -->
+	
+	<!--导航条开始  -->
+	<header>
+		<nav class="navbar navbar-fixed-top one" id="nav">
+			<div class="container">	
+				<div style="margin-top: 2px;" class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>  
+	                    <span class="icon-bar"></span>  
+	                    <span class="icon-bar"></span>  
+	                    <span class="icon-bar"></span>  
+					</button>
+					<a href="#" class="navbar-brand"><img src="images/2.png" class="img-circle img-responsive "></a>
+					<a style="padding-left:4px;" class="navbar-brand navbar_barand2" href="#">少数派</a>
+				</div>
+				
+				<h1>
+					<span style="color: #9B9BB1;">#</span><span id="title">Android</span>
+				</h1>
+				
+				<!-- 登录前的菜单 -->
+				<div id="login_before">
+				<div class="collapse navbar-collapse" id="example-navbar-collapse navbar-toggleable-xs">
+					<ul style="margin-top: 4px;" class="nav navbar-nav pull-right">
+	    				<li class="nav-item active"><a class="nav-link" href="#"><span class="icon icon-pencil"></span></a></li>
+
+	    				<li class="nav-item">
+	    				<a class="nav-link search" href="javascript:;">
+	    					<span><i class="icon icon-search"></i></span>
+	    				</a></li>
+						
+						<li class="search_inp">
+							<form id="s" action="javascript:;" method="post">
+								<input class="form-group search_input" type="text" placeholder="搜索" />
+							</form>
+						</li>
+
+						<li class="nav-item"><a class="nav-link" href="#myModal" data-toggle="modal">登录</a></li>
+	    			</ul>
+				</div>
+				</div>
+				<!-- 登录前的菜单 -->
+				
+				<!-- 登录后的菜单 -->
+				<div id="login_after">
+				<div class="collapse navbar-collapse" id="example-navbar-collapse navbar-toggleable-xs">
+					<ul style="margin-top: 4px;" class="nav navbar-nav pull-right">
+	    				<li class="nav-item active"><a class="nav-link" href="#"><span class="icon icon-pencil"></span></a></li>
+	    				<li class="nav-item">
+	    				<a class="nav-link search" href="#">
+	    					<span><i class="icon icon-search"></i></span>
+	    				</a></li>
+						
+						<li class="search_inp">
+							<form id="s" action="#" method="post">
+								<input  class="form-group search_input" type="text" placeholder="搜索" />
+							</form>
+						</li>
+
+						<li class="nav-item">
+	    				<a class="nav-link" href="#">
+	    					<span><i class="glyphicon glyphicon-bell"></i></span>
+	    				</a></li>
+						<li id="btn_login" class="nav-item"><a class="nav-link" href="#" data-toggle="popover"><img src="images/6.jpg" class="img-circle img-responsive"></a></li>
+	    			</ul>
+				</div> 
+				</div>
+				<!-- 登录后的菜单 -->
+			</div>
+		</nav>
+		<div style="height: 64px;"></div>
+		<!-- 副导航 -->
+		<nav class="navbar" id="nav2">
+			<div class="container">
+				<table class="table table-bordered">
+					<thead >
+						<th class="text-center"><a href="#"><i class="icon icon-road"></i>&nbsp;专题广场</a></th>
+						<th class="text-center"><a href="#"><i class="icon icon-th"></i>&nbsp;Matrix</a></th>
+						<th class="text-center"><a href="#"><i class="icon icon-calendar">&nbsp;</i>付费栏目</a></th>
+						<th class="text-center"><a href="#">效率工具</a></th>
+						<th class="text-center"><a href="#">手机摄影</a></th>
+						<th class="text-center"><a href="#">生活方式</a></th>
+						<th class="text-center"><a href="#">游戏</a></th>
+						<th class="text-center"><a href="#">硬件</a></th>
+					</thead>
+				</table>
+			</div>
+		</nav>
+		<!-- 副导航 -->
+	</header>
+	<!-- 导航条结束 -->
+	
+	<!-- 主体 -->
+	<div class="main container">
+		<div class="article-detail">
+			<article>
+				<img src="images/6.png" class="banner">
+				<h1 class="title">纪念碑谷2 Android 版国内发售，你买了吗？</h1>
+				<div class="meta">
+					<div class="user-card size60">
+						<a href="javascript:;" class="avatar">
+							<img src="images/6.jpg" class="img-circle img-responsive" style="width: 30px;height: 30px;">
+						</a>
+						<h4><a href="javascript">呆毛王</a></h4>
+						<time>1小时前</time>
+						<div class="actions">
+							<span class="like-view">
+								<i class="glyphicon glyphicon-heart-empty i-like"></i>
+								<sup>4</sup>
+							</span>
+							<a href="javascript:;" class="btn-comment">
+								<i class="glyphicon glyphicon-comment i-comment"></i>
+								<sup>3</sup>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="article-content" class="article-content">
+					<div class="content wangEditor-txt">
+						<div>
+							<p>今年 6 月，最知名的手机游戏之一「纪念碑谷」随着苹果 WWDC17 开发者大会的开幕演讲，正式推出了续作「纪念碑谷 2」。上周，纪念碑谷 2 的 Android 版在国内由腾讯代理发布，游戏的付费模式也有了些变化。</p>
+							<p>「纪念碑谷」因其独特的游戏性和艺术创造力而著称，充满想象的交互设计，禅意十足的配乐和画面，都让其成为手机游戏历史上影响最深远 的独立游戏。续作秉承了前一代优美的画面和玩法，更加精巧的空间错位关卡，让新的游戏主人公萝尔和母亲，给玩家再次展现出一幅优美动人的冒险史诗。少数派上周已对最新版的纪念碑谷 2 进行了详尽评测：</p>
+							<p><a href="javascript">
+								被苹果推荐无数次的「纪念碑谷 2」出了 Android 版，还找蔡康永做了汉化
+							</a></p>
+							<figure tabindex="0" draggable="false" class="ss-img-wrapper" contenteditable="false">
+								<img src="images/7.png" data-index="0">
+							</figure>
+							<p>
+								本次国内 Android 版的游戏关卡与 iOS 版完全一致，不同的是，腾讯特别邀请了著名作家蔡康永和饶雪漫，提供了三种风格不同、可供选择的中文翻译；并且还为游戏加入了一点社交分享元素，每当玩家完成一个章节关卡，都可以直接分享到朋友圈。
+								本次国内 Android 版的游戏关卡与 iOS 版完全一致，不同的是，腾讯特别邀请了著名作家蔡康永和饶雪漫，提供了三种风格不同、可供选择的中文翻译；并且还为游戏加入了一点社交分享元素，每当玩家完成一个章节关卡，都可以直接分享到朋友圈。本次国内 Android 版的游戏关卡与 iOS 版完全一致，不同的是，腾讯特别邀请了著名作家蔡康永和饶雪漫，提供了三种风格不同、可供选择的中文翻译；并且还为游戏加入了一点社交分享元素，每当玩家完成一个章节关卡，都可以直接分享到朋友圈。
+							</p>
+							<figure tabindex="0" draggable="false" class="ss-img-wrapper" contenteditable="false">
+								<img src="images/8.png" data-index="0">
+							</figure>
+							<p>除此之外，本次最大区别还在于 Android 版的付费模式。纪念碑谷 iOS 版在 App Store 上一直都采用付费下载，而此次 Android 版改为免费下载试玩部分关卡，后续关卡通过微信支付解锁的方式。这样的付费模式并不陌生，但这样的变化可能更多是腾讯基于当下国内 Android 生态付费环境下的考虑。</p>
+							<p>毕竟对于付费下载 App 不算成熟的国内 Android 生态，就算是「纪念碑谷」这样一款如此知名的手机游戏，「先尝后买」——免费下载 + 试玩几个章节，觉得好玩再花上十几块解锁全部关卡——可能也是更合适的方式。</p>
+							<figure tabindex="0" draggable="false" class="ss-img-wrapper" contenteditable="false">
+								<img src="images/9.png" data-index="0">
+							</figure>
+							<p>为了吸引新玩家，腾讯还制作了专门的活动页面，通过完成任务的方式，给予玩家奖励。具体来说，新注册、关注「纪念碑谷 2」 公众号以及通过相应的关卡都可以直接获得积分奖励，该积分可以在页面内兑换 Q 币、腾讯视频会员或 QQ 超级会员，也可以参与抽奖，获得价值更高的奖励。此外，如果邀请好友注册，也能直接获得 Q 币奖励。</p>
+							<p>这样的活动，可能对于核心玩家来说比较鸡肋，但对于大众新玩家而言，还是有不小吸引力。根据活动页面，玩家只要下载试玩游戏 + 关注公众号，就能获得 4 积分，可直接兑换 5Q 币，这个门槛相当低。</p>
+							<figure tabindex="0" draggable="false" class="ss-img-wrapper" contenteditable="false">
+								<img src="images/10.png" data-index="0">
+							</figure>
+							<p>此外，腾讯还找来广为大众熟知的「康熙来了」主持人蔡康永为游戏代言。蔡康永除了为纪念碑谷 2 翻译了名为「黑鸟诗版」的中文译文，还拍摄了两分多钟的宣传视频，制作很用心。纪念碑谷 2 官方微博还专门对蔡康永的译文作了详细分析，有兴趣的可以<a href="javascript:;">点此去阅读</a>。</p>
+							<p>请名人来做代言，其用意显然是为了让游戏能覆盖到更广泛的受众，影响到那些直到今天还从来都没有听说过「纪念碑谷」这款游戏的人，让他们也了解进而喜欢上游戏。</p>
+							<p>腾讯能以这样接地气的方式，来宣传纪念碑谷 2 这样本身足够优秀但在国内不算接地气的游戏，我认为是一件好事。在过去一两年的时间里，我们也能看到腾讯在以开放的姿态去推广品质优秀的游戏。比如说腾讯代理饥荒后，为了让游戏更接地气，就曾推出过结婚 Mod（可理解为游戏的「扩展插件」），让游戏内人物获得风格完全不同的装扮。虽然当时这个 Mod 的推出引发了争议，但站在扩大游戏受众的角度考虑，这种 Mod 在没有破坏游戏核心玩法的前提下，更多迎合了国内受众的偏好，这样的本地化运营思路本身是值得肯定的。</p>
+							<figure tabindex="0" draggable="false" class="ss-img-wrapper" contenteditable="false">
+								<img src="images/11.png" data-index="0">
+							</figure>
+							<p>说回这一次纪念碑谷 2 的宣传，唯一的槽点可能就是国内 Android 版本因内置了社交分享功能，导致游戏所需要获取的系统权限比原版多了很多。非常希望腾讯后续能够优化这方面，在本地化社交分享和隐私保护之间能有一个更好的平衡。</p>
+							<p>你可以前往「纪念碑谷 2」官网免费<a href="javascript:;">下载 Android 版</a>，通过完成活动页面的小任务薅一点羊毛，上架前两周内优惠价 18 元，随后会恢复到原价 24 元。</p>
+							<p>（另，iOS 版本 11 月 15 日前也在 <a href="javascript:;">App Store </a>以 18 元冰点促销中。）</p>
+							<p>
+								<div class="ss-app-card">
+								<img class="ss-icon" src="https://cdn.sspai.com/2017/06/06/8d42e3a52d439131e68eae4e546b844f.jpg" alt="">
+									<h4>纪念碑谷2</h4>
+								</div>
+							</p>
+						</div>
+					</div>
+					<div class="tags">
+						<span class="label label-default">
+							<a href="javascript:;" class="label_child">#游戏</a>
+						</span>
+						<span style="margin-left: 10px;" class="label label-default">
+							<a href="javascript:;" class="label_child">#Android</a>
+						</span>
+						<span style="margin-left: 10px;"  class="label label-default">
+							<a href="javascript:;" class="label_child">#腾讯</a>
+						</span>
+					</div>
+					<div class="copyright">
+                  	© 本文著作权归作者所有，并授权少数派独家使用，未经少数派许可，不得转载使用。
+                	</div>
+                	<hr>
+                	<section class="action-region">
+                		<a style="text-decoration: none;" href="javascript:;" class="btn-like">
+                			<i class="glyphicon glyphicon-heart-empty"></i>
+                			<sup>6</sup>
+                		</a>
+                		<a style="text-decoration: none;" href="javascript:;" class="btn-collection">
+                			分享
+                		</a>
+                		<a style="text-decoration: none;" href="javascript:;" class="btn-collection">
+                			收藏
+                		</a>
+                	</section>
+                	<p></p>
+                	<hr>
+                	<section class="affiliate-info">
+                		<div class="item">
+                			<a href="javascript" class="avatar image">
+                				<img class="img-circle img-responsive" src="images/10-1.jpg" style="width: 80px;height: 80px;">
+                			</a>
+                			<div class="body">
+                				<h4></h4>
+                				<h4><a href="javascript:;">化学心情下2</a></h4>
+                				<p>Android 系统、应用技巧</p>
+                				<a href="h=javascript:;" class="btn btn-default">关注</a>
+                			</div>
+                		</div>
+                	</section>
+                	<hr>
+                	<div id="comment-box" class="comment-box">
+                		<form class="comment-form" action="#" method="post">
+                			<div class="form-group">
+                				<a class="avatar" style="float: left; margin-right: 20px;" href="javascript:;">
+                					<img class="img-circle img-responsive" src="images/10-1.jpg" style="width: 40px;height: 40px;">
+                				</a>
+                				<section>
+                					<div class="textarea-wrap">
+                						<div class="el-textarea">
+                							<textarea name="comment" rows="4" class="el-textarea__inner"></textarea>
+                						</div>
+                						<a href="javascript:;" class="btn btn-danger">关注</a>
+                					</div>
+                				</section>
+                			</div>
+                		</form>
+                		<br><br><br>
+                		<h3>评论（27）</h3>
+                		<div>
+                			<ul class="comment-list">
+                				<li class="comment-item">
+                					<a class="avatar" href="javascript:;">
+                						<img alt="VkinG" src="https://cdn.sspai.com/avatar/a348b09f4b7d8d221a0124e5e1690548.?imageMogr2/quality/95/thumbnail/!100x100r/gravity/Center/crop/100x100" lazy="loaded" style="width: 50px; height: 50px;">
+                					</a>
+                					<section>
+                						<h5>VkinG</h5>
+                						<div class="body">敢问在国内有多少安卓用户会付费买游戏的？做个跟PC一样的D加密吧哈哈哈哈</div>
+                						<div class="ext">
+                							<time>4小时前</time>
+                						</div>
+                					</section>
+                				</li>
+
+                				<li class="comment-item">
+                					<a class="avatar" href="javascript:;">
+                						<img alt="梁山伯与伏地魔" src="https://cdn.sspai.com/2017/04/04/b5dad730e1af48ce094da3c570cadd0e.jpg?imageMogr2/quality/95/thumbnail/!100x100r/gravity/Center/crop/100x100" lazy="loaded" style="width: 50px; height: 50px;">
+                					</a>
+                					<section>
+                						<h5>梁山伯与伏地魔</h5>
+                						<div class="body">iOS已入。因为还没挑好下一部安卓机。回归安卓之后视情况考虑再入一次。</div>
+                						<div class="ext">
+                							<time>4小时前</time>
+                						</div>
+                					</section>
+                				</li>
+                			</ul>
+                		</div>
+                	</div>
+				</div>
+			</article>
+		</div>
+	</div>
+	<!-- 主体 -->
+	
+	<!-- 底部 -->
+	<div class="footer">
+	    <div class="container">
+	    	<br><br>
+	        <div class="row footer-top">
+	           <div class="row">
+	           		<ul class="list-inline text-center foot_icon">
+	           			<li><a href="#"><img class="img-circle img-responsive" src="images/7.jpg"></a></li>
+	           			<li><a href="#"><img class="img-circle img-responsive" src="images/5.jpg"></a></li>
+	           			<li><a href="#"><img class="img-circle img-responsive" src="images/8.jpg"></a></li>
+	           			<li><a href="#"><img class="img-circle img-responsive" src="images/9.jpg"></a></li>
+	           		</ul>
+	           </div>
+	           <br>
+	           <div class="row">
+	              <ul class="list-inline text-center foot_ul">
+	              	<li><a href="#">支持我们</a></li>
+	              	<li><a href="#">作者招募</a></li>
+	              	<li><a href="#">用户协议</a></li>
+	              	<li><a href="#">FAQ</a></li>
+	              	<li><a href="#">Contact Us</a></li>
+	              </ul>
+	           </div>
+        	</div>
+	        <div class="row footer-bottom">
+	            <ul class="list-inline text-center">
+	                <li style="color: #ccc; font-size: 12px">&copy;2013-2017 少数派 | 粤ICP备09128966号-4 | CC BY-NC 4.0</li>
+	            </ul>
+	        </div>
+	        <br>
+    	</div>
+	</div>
+	<!-- 底部 -->
+	<!-- script包 -->
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/comment.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+@media screen and (max-width: 544px){
+	.hidden-sm-up,.hidden-md-up{
+		display: block;
+	}	
+}
+
+@media screen and (min-width: 900px){
+	.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+	}
+	.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .active>.nav-link:focus, .navbar-dark .navbar-nav .active>.nav-link:hover, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.active:focus, .navbar-dark .navbar-nav .nav-link.active:hover, .navbar-dark .navbar-nav .nav-link.open, .navbar-dark .navbar-nav .nav-link.open:focus, .navbar-dark .navbar-nav .nav-link.open:hover, .navbar-dark .navbar-nav .open>.nav-link, .navbar-dark .navbar-nav .open>.nav-link:focus, .navbar-dark .navbar-nav .open>.nav-link:hover {
+    	color: #fff;
+	}
+
+	body{
+		font-size: 18px;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		color: #323232;
+		background-color: #fff;
+	}
+	.hidden-sm-up,.hidden-md-up{
+		display: none;
+	}
+	#collapsingNavbar a,.nav-tiem{
+		font-size: 1.6rem;
+		color: rgba(255,255,255,.5);
+		background-color: #337AB7;
+	}
+	#collapsingNavbar a:hover{
+		color: rgba(255,255,255,.8);
+	}
+	#collapsingNavbar span{
+		color: #fff;
+	}
+	#sidebar a,.nav-item{
+		background-color: #fff;
+	}
+	.display-1{
+		font-size: 10rem;
+    	font-weight: 300;
+	}
+}

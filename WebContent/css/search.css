@@ -1,0 +1,107 @@
+input.text{
+	outline: 0;
+    border: 1px solid rgba(0,0,0,.12);
+    background-color: #fff;
+    padding: 25px 30px;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.375;
+    color: #292525;
+    font-weight: 400;
+    border-radius: 0;
+}
+.well{
+	/*width: 760px;*/
+	height: 220px;
+    padding: 65px 0;
+	background-color: #fff;
+}
+.search-form-wrap .search-form .text {
+    float: left;
+    border: 2px solid #292525;
+    width: 620px;
+}
+.search-form-wrap .search-form .btn {
+    margin-left: -2px;
+    border: 2px solid #292525;
+    background-color: #fff;
+    color: #292525;
+    border-radius: 0;
+    height: 76px;
+    line-height: 76px;
+    padding: 0;
+    width: 140px;
+    font-size: 16px;
+    font-size: 1rem;
+    float: left;
+}
+.result-wrap {
+    width: 1110px;
+}
+.result-wrap {
+    margin: 0 auto;
+}
+.result-wrap>.router-main {
+    float: left;
+    width: 760px;
+}
+.user-search-list .user-card:first-of-type {
+    padding-top: 0;
+}
+.block[data-v-bd430356] {
+    display: block;
+}
+.user-search-list .user-card {
+    padding: 20px 0;
+    border-bottom: 1px solid #dbe2e8;
+}
+.user-card.block .avatar {
+    float: left;
+}
+.avatar {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-search-list .user-card h4 {
+    margin-bottom: 10px;
+}
+
+.user-card.block h4 {
+    display: block;
+    margin-right: 0;
+}
+.user-search-list .user-card .desc {
+    color: #9b9b9b;
+    font-size: 14px;
+    font-size: .875rem;
+}
+.search-body .result-wrap{
+	padding: 0;
+}
+.result-wrap>.side {
+    /*float: right;*/
+    width: 300px;
+}
+.search-body .side-section {
+    margin: 0 0 20px;
+}
+.search-body .side{
+	float: right;
+	padding: 0;
+	margin-top: -310px;
+}
+.search-body .side-section>dt {
+    padding-bottom: 6px;
+    /*border-bottom: 1px solid #e9e9ea;*/
+    margin-bottom: 15px;
+}
+.search-body .side-section>dt h3 {
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.42857143;
+    margin: 0;
+    position: relative;
+    color: #292525;
+    /*float: left;*/
+}

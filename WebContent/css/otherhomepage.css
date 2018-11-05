@@ -1,0 +1,11 @@
+.user-homepage>header>.inner .user-intro>.body .console .btn {
+    width: 100px;
+    margin-right: 8px;
+}
+.btn.dark-out-line {
+    border-color: #292525;
+    color: #292525;
+}
+.btn.dark-out-line, .btn.white:hover {
+    background-color: transparent;
+}

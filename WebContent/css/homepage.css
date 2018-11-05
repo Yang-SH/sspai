@@ -1,0 +1,206 @@
+.main {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.user-homepage {
+	margin-top: -40px;
+    position: relative;
+}
+.user-homepage>header {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dbe2e8;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+
+}
+.user-homepage>header>.inner {
+    position: relative;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.user-homepage>header>.inner .user-intro .avatar {
+    margin-right: 20px;
+    float: left;
+}
+.avatar {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-intro{
+	padding: 10px 200px;
+}
+.avatar img {
+    display: block;
+    border-radius: 50%;
+}
+.user-homepage>header>.inner .user-intro>.body h1 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0 0 10px;
+    line-height: 1.4;
+}
+.user-homepage>header>.inner .user-intro>.body summary {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+.user-homepage>header>.inner .user-intro>.body .statistic {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.71428571;
+    display: inline-block;
+}
+.user-homepage>header>.inner .user-intro>.body .statistic a, .user-homepage>header>.inner .user-intro>.body .statistic label {
+    margin-right: 20px;
+    color: #9b9b9b;
+    white-space: nowrap;
+}
+.user-intro .nav a{
+	font-size: 12px;
+	color: #292525;
+}
+.tab-content{
+	max-width: 760px;
+}
+.user-homepage .tab-content{
+	margin: 0 auto;
+	max-width: 760px;
+	min-height: 400px;
+}
+.article-card {
+    border: 1px solid #dbe2e8;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(46,61,73,.08);
+    padding: 20px;
+    margin: 0 0 20px;
+    transition: border .3s ease-in-out;
+}
+.article-card dt {
+    position: relative;
+    margin: 0 0 20px;
+}
+.user-card.block .avatar {
+    float: left;
+}
+
+.avatar {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-card.block h4 {
+    display: block;
+    margin-right: 0;
+}
+.user-card.size40 h4 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+.user-card h4 {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 8px;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 1.66666667;
+}
+.user-card .uname{
+	text-decoration: none;
+	color: #9b9b9b;
+    vertical-align: middle;
+}
+.tab-content dt .user-card h4 em {
+    font-size: 14px;
+    font-size: .875rem;
+    font-style: normal;
+    margin-left: 16px;
+    color: #4a4a4a;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 480px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 1px;
+}
+.tab-content dt .user-card h4 em a {
+	text-decoration: none;
+    color: #d7191a;
+}
+.user-card.size40 time {
+    font-size: 14px;
+    font-size: .875rem;
+}
+.user-card time {
+    color: #9b9b9b;
+    vertical-align: middle;
+    font-size: 12px;
+    font-size: .75rem;
+}
+.article-card dd {
+    margin: 0;
+}
+.tab-content dd blockquote.comment-quote {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.625;
+    color: #4a4a4a;
+    border-left: 4px solid #dbe2e8;
+    padding: 5px 0 5px 24px;
+    margin-left: 40px;
+}
+.tab-content dd blockquote.comment-quote a{
+	text-decoration: none;
+	color: #000;
+}
+.tab-content dd blockquote.comment-quote a:hover{
+	color: #d7191a;
+}
+.user-homepage .router-view .no-data {
+    padding: 160px 0;
+}
+
+.no-data {
+    padding: 70px 0;
+    text-align: center;
+    color: #9b9b9b;
+    border: none!important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.user-homepage .rightside-nav {
+    border: 1px solid #dbe2e8;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(46,61,73,.08);
+    transition: border .3s ease-in-out;
+    position: absolute;
+    right: 12px;
+}
+.user-homepage .rightside-nav .nav a{
+	text-decoration: none;
+	color: #9b9b9b;
+	font-size: 13px;
+}
+.user-homepage .rightside-nav .nav a:hover{
+	color: #292525;
+}
+.user-homepage .rightside-nav li.line {
+    height: 0;
+    width: 70%;
+    margin: 8px auto 15px;
+    height: 1px;
+    opacity: .5;
+    background-color: #dbe2e8;
+}

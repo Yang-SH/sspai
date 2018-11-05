@@ -1,0 +1,196 @@
+@media screen and (max-width: 900px){
+	#nav .navbar_barand2{
+		display: none;
+	}
+	#nav2 div table{
+		display: none;
+	}	
+}
+	html,body{
+		width: 100%; height: 100%; 
+		font-size: 16px;
+		/*background-color: #ccc;*/
+		font-family: -apple-system,BlinkMacSystemFont,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,Arial,sans-serif;
+	}
+	 .bg{
+		display: table;
+		width: 100%;
+		height: 100%;
+		padding: 100px 0;
+		text-align: center;
+		color: #fff;
+		/*background: url(../images/pic3.jpg) no-repeat bottom center;*/
+		/*background-color: #292525;*/
+		background-size: cover;
+	} 
+	.one{
+		background-color: #292525;
+	}
+	.popover{
+		width:120px;
+    	max-width:800px;
+	}
+	.modal-body,.modal-footer{
+		/*border: 1px solid #ccc;*/
+		width: 530px;
+		margin: 10px;
+	}
+	/*.nav_brand{
+		border-radius: 100%;
+		background: url(../images/1.png) no-repeat;
+	}*/
+	#nav{
+		padding:5px 0px;
+		transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+	}
+	#nav a{
+		background:transparent !important;
+		color:#fff;
+
+	} 
+	#nav a:hover{
+		color: #45bcf9 !important;
+		background:transparent;
+		outline: 0;
+	}
+	#nav a{
+		-webkit-transition:color 0.5s ease-in-out;
+		transition: color 0.5s ease-in-out;
+		-moz-transition: color 0.5s ease-in-out;
+	}
+	#nav h1{
+		font-size: 1.5rem;
+	    font-family: -apple-system,BlinkMacSystemFont,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,Arial,sans-serif;
+	    text-align: center;
+	    color: #fff;
+	    margin: 0;
+	    height: 60px;
+	    line-height: 60px;
+	    font-weight: 400;
+	    position: absolute;
+	    top: 3%;
+	    left: 0;
+	    width: 100%;
+	}
+	#nav img{
+		margin-top: -8px;
+	}
+	#login_after{
+	/* 	display: none; */
+	}
+	#myModal{
+		margin: auto;
+		background-color: #fff;
+		width:550px;
+		height: 664px;
+		text-align: center;
+		overflow-y:hidden;
+	}
+	#klogin{
+		font-size: 16px !important;
+		font-weight: 400;
+	}
+	#myModal form .pull-right{
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 400;
+		color: #000;
+		line-height: 35px;
+	}
+	#myModal form .pull-right:hover{
+		color: #D7191A;
+	}
+	#myModal #login_btn{
+		width: 100%;
+		color: #fff;
+		background-color: #292525;
+	}
+	#myModal input,button{
+		height: 73px;
+		border: 1px solid #292525;
+		border-radius: 0;
+	}
+	#myModal .modal-footer span{
+		font-size: 14px;
+		color: #ccc;
+	}
+	#myModal .xinlang,.weixin{
+		display:inline; 
+	}
+	#myModal .xinlang{
+		margin-left: 0px;
+	}
+	#nav2 table a{
+		text-decoration: none;
+		font-size: 15px;
+		color: #292525;
+	}
+	#nav2 table a:hover{
+		color: #D7191A;
+	}
+	.search_input{
+		border: none;
+		background-color: #292525;
+		outline: medium;
+		border-bottom: 1px solid #fff;
+		padding-top: 5px;
+		transition: all .65s;
+	}
+	.input_back{
+		color: #fff;
+		background-color: #292525;
+		border-bottom: 1px solid #fff;
+	}
+	.input_back2{
+		background-color: #fff;
+		border-bottom: 1px solid #292525;
+	}
+	::-webkit-input-placeholder { /* WebKit browsers */
+		font-size: 12px;
+    	color: #fff;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    	font-size: 12px;
+    	color: #fff;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+    	font-size: 12px;
+    	color:  #fff;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+    	font-size: 12px;
+    	color: #fff;
+	}
+	.top-nav{
+		/*padding: 0;*/
+		background-color: rgba(255,255,255,1);
+		border-bottom: 1px solid rgba(205,205,205,.6);
+	}
+	.top-nav2{
+		/*padding: 0;*/
+		background-color: #292525;
+	}
+	.footer{
+		border-top:1px solid #E6E6E6;
+		background-color: #fff;
+	}
+	.footer .foot_ul li{
+		font-size: 15px;
+		margin-left: 80px;
+	}
+	.footer .foot_ul li a{
+		text-decoration: none;
+		color: #000;
+	}
+	.footer .foot_ul li a:hover{
+		color: #D7191A;
+	}
+	.footer .foot_icon li{
+		margin-left: 20px;
+	}
+	button.navbar-toggle {
+		background-color:#fbfbfb;
+	}
+	button.navbar-toggle > span.icon-bar {
+	    background-color:#dedede;
+	} 

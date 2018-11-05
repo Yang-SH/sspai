@@ -1,0 +1,138 @@
+.side .column-card {
+    margin-bottom: 20px;
+
+}
+.column-card {
+    margin: 0 0 20px;
+    background-color: #fff;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #dbe2e8;
+    box-shadow: 0 1px 2px rgba(46,61,73,.08);
+    padding: 0;
+    position: relative;
+
+}
+.column-card>header .banner {
+    width: 100%;
+    display: block;
+}
+img {
+    border-style: none;
+}
+.column-card>section {
+    margin: 0;
+    padding: 16px 20px 20px;
+}
+.column-card>section .title {
+    margin: 0;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.22222222;
+    padding-bottom: 2px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+.column-card>section .title:hover {
+   color: #D7191A;
+}
+.column-card>section p {
+    margin: 0;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.57142857;
+    color: #9b9b9b;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
+}
+.column-card>section>footer {
+    margin-top: 23px;
+    color: #9b9b9b;
+    font-size: 12px;
+    font-size: .75rem;
+
+}
+.column-card>section>footer label {
+
+    font-size: 12px;
+    font-size: .75rem;
+    /*float: left;*/
+    margin-top: 9px;
+}
+.column-card>section>footer label var {
+    margin-right: 2px;
+    font-style: normal;
+}
+.column-card>section>footer .action {
+    float: right;
+    font-size: 12px;
+    font-size: .75rem;
+}
+.btn.dark-out-line {
+	border-radius: 100px;
+    border-color: #292525;
+    color: #292525;
+}
+.btn.dark-out-line:hover {
+	color: #fff;
+    background-color:#292525 ;
+}
+.article-card dt {
+    position: relative;
+    margin: 0 0 20px;
+}
+.user-card h4 {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 8px;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 1.66666667;
+}
+.user-card h4 a{
+	color: #292525;
+	text-decoration: none;
+}
+.article-card dd .thumb {
+    overflow: hidden;
+}
+.article-card dd .door_banner{
+	width: 100%;
+    display: block;
+    max-width: 180px;
+    max-height: 110px;
+}
+.article-card dd .title a{
+	text-decoration: none;
+	color: #292525;
+}
+.article-card dd .title a:hover{
+	color: #D7191A;
+}
+.side .contact {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dbe2e8;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(46,61,73,.08);
+    margin-bottom: 20px;
+    transition: border .3s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: .875rem;
+    text-decoration: none;
+    color: #292525;
+}
+.side .contact:hover{
+	color: #D7191A;
+}
