@@ -1,38 +1,22 @@
 package controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import entity.*;
+import service.ArticleService;
+import service.SortService;
+import service.TopicService;
+import service.UserService;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.xml.bind.ParseConversionEvent;
-
-import org.apache.catalina.TomcatPrincipal;
-import org.apache.ibatis.session.SqlSession;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import dao.UserDAO;
-import entity.Article;
-import entity.Collection;
-import entity.Comment;
-import entity.Like;
-import entity.Reply;
-import entity.Sort;
-import entity.Topic;
-import entity.User;
-import service.ArticleService;
-import service.SortService;
-import service.TopicService;
-import service.UserService;
-import util.MyBatisUtil;
 
 /**
  * url映射的写法，前面的*表示进行的功能，后面的表示 功能模块名称+Action UserServlet
@@ -42,6 +26,7 @@ import util.MyBatisUtil;
 // public class UserServlet extends HttpServlet {
 public class ActicleServlet extends BaseServlet {
 
+	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// 一定要调用父类的方法

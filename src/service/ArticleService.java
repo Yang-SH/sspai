@@ -1,21 +1,14 @@
 package service;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.ibatis.session.SqlSession;
-
 import dao.ArticleDAO;
 import dao.CommentDAO;
 import dao.UserDAO;
-import entity.Article;
-import entity.Collection;
-import entity.Comment;
-import entity.Like;
-import entity.PageBean;
-import entity.Reply;
-import entity.User;
+import entity.*;
+import org.apache.ibatis.session.SqlSession;
 import util.MyBatisUtil;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ArticleService {
 	// 功能操作的实例也就是UserService的实例

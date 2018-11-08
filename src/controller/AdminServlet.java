@@ -1,38 +1,22 @@
 package controller;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import entity.*;
+import service.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import entity.Admin;
-import entity.Article;
-import entity.Comment;
-import entity.PageBean;
-import entity.Result;
-import entity.Sort;
-import entity.Topic;
-import entity.User;
-import service.AdminService;
-import service.ArticleService;
-import service.CommentService;
-import service.SortService;
-import service.TagService;
-import service.TopicService;
-import service.UserService;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 @WebServlet("*.adminAction")
-@SuppressWarnings("all")
 public class AdminServlet extends BaseServlet {
+	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// 一定要调用父类的方法

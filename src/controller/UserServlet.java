@@ -1,39 +1,17 @@
 package controller;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import entity.*;
+import service.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
-import org.apache.ibatis.session.SqlSession;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import dao.UserDAO;
-import entity.Article;
-import entity.Attention_user;
-import entity.Comment;
-import entity.Like;
-import entity.Result;
-import entity.Topic;
-import entity.User;
-import service.ArticleService;
-import service.AttentionService;
-import service.CollectionService;
-import service.CommentService;
-import service.LikeService;
-import service.TopicService;
-import service.UserService;
-import util.MyBatisUtil;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
 
 /**
  * url映射的写法，前面的*表示进行的功能，后面的表示 功能模块名称+Action UserServlet

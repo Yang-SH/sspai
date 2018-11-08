@@ -1,15 +1,10 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-3.4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-core-2.2.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.8-bin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-annotations-2.2.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-databind-2.2.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar!/" />
+      <root url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib" recursive="false" />
   </library>
 </component>

@@ -1,11 +1,11 @@
 package util;
 
-import java.io.IOException;
-
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import java.io.IOException;
 
 public class MyBatisUtil {
 
@@ -14,7 +14,7 @@ public class MyBatisUtil {
 	static {
 		try {
 			factory = new SqlSessionFactoryBuilder().build(Resources
-					.getResourceAsReader("configuration.xml"));
+					.getResourceAsReader("config/configuration.xml"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,8 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sspai:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="acc34039-7b91-41e7-881d-7fbc4b4ba8ba" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="68405068-668e-4aa6-b3e7-5968c8864e4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sspai.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/controller/ActicleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/controller/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/controller/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/controller/TopicServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/AdminDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/ArticleDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/AttentionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/CollectionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/LikeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/ReportDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/SortDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/TagDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/TopicDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Article_sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Attention_topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Attention_user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Letter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Like.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Reply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/AttentionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/CollectionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/LikeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/SortService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/TopicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestAttUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestLike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestRegister.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestTopic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/test/TestUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/util/MyBatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/controller/ActicleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/controller/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/controller/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/controller/TopicServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/controller/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/AdminDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/ArticleDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/AttentionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/CollectionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/LikeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/ReportDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/SortDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/TagDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/TopicDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Article_sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Attention_topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Attention_user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Letter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Like.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Reply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/AttentionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/CollectionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/LikeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/SortService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/TopicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestAttUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestLike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestRegister.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestTopic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/test/TestUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/classes/util/MyBatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/controller/ActicleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/controller/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/controller/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/controller/TopicServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/controller/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/AdminDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/ArticleDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/AttentionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/CollectionDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/LikeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/ReportDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/SortDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/TagDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/TopicDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Article_sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Attention_topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Attention_user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Letter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Like.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Reply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/AttentionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/CollectionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/LikeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/SortService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/TopicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestAttUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestLike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestRegister.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestTopic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/test/TestUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/util/MyBatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sspai02_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.8-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/config/configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controller/ActicleServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controller/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controller/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controller/TopicServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controller/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/AdminDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/ArticleDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/ArticleDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/ArticleDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/AttentionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/CollectionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/CommentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/CommentDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/CommentDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/LikeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/LikeDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/LikeDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/ReportDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/SortDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/SortDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/SortDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/TagDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/TopicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/TopicDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/TopicDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/UserDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/dao/UserDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Article_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Attention_topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Attention_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Letter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Like.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/PageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/filter/EncodeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/AttentionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/CollectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/LikeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/SortService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/TagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/TopicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestAttUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestLike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestTopic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/test/TestUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/util/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/dao/ArticleDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/dao/CommentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/dao/LikeDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/dao/SortDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/dao/TopicDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sspai02/dao/UserDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/classes/config/configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ActicleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ActicleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TopicServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter/EncodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filter/EncodeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MyBatisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyBatisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sspai.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sspai.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sspai02.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,63 +277,190 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="554932855">
+    <session id="-421800295">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="class" value="1" />
+          <entry key="java" value="17" />
+          <entry key="jpg" value="4" />
+          <entry key="jsp" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="17" />
+          <entry key="JSP" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="56" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="56" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/TopicServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="260">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/BaseServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/AdminService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/MyBatisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/ArticleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/ActicleServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/AdminServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/BaseServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/filter/EncodeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="234">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/configuration.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>articleAction</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controller/TopicServlet.java" />
         <option value="$PROJECT_DIR$/src/controller/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/config/configuration.xml" />
+        <option value="$PROJECT_DIR$/src/controller/TopicServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/ActicleServlet.java" />
+        <option value="$PROJECT_DIR$/src/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/util/MyBatisUtil.java" />
+        <option value="$PROJECT_DIR$/src/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/controller/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/filter/EncodeFilter.java" />
       </list>
     </option>
   </component>
@@ -76,55 +470,75 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="968" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1272" />
+    <option name="width" value="1296" />
+    <option name="height" value="1398" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaCommentsMustBeJavadocFormat</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sspai02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sspai02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sspai02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sspai02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sspai02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sspai02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sspai02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sspai02" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="sspai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sspai" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541584605910" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/WEB-INF/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.28400734" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ysh\VS Code\sspai\src\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ysh\VS Code\sspai\WebContent\WEB-INF\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,16 +554,18 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ss/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$">
+        <file path="$PROJECT_DIR$/WebContent">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/sspai" />
           </settings>
         </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sspai02" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sspai" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -157,7 +573,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="3285" />
+        <option name="DEBUG_PORT" value="62967" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -205,82 +621,257 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\DouDou\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\1\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="acc34039-7b91-41e7-881d-7fbc4b4ba8ba" name="Default Changelist" comment="" />
-      <created>1541422612562</created>
+      <changelist id="68405068-668e-4aa6-b3e7-5968c8864e4a" name="Default Changelist" comment="" />
+      <created>1541577782486</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541422612562</updated>
-      <workItem from="1541422616618" duration="848000" />
+      <updated>1541577782486</updated>
+      <workItem from="1541577784006" duration="6055000" />
+      <workItem from="1541639215349" duration="970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="848000" />
+    <option name="totallyTimeSpent" value="7025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-9" y="-9" width="2578" height="1408" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.15482841" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50120485" side_tool="true" weight="0.17877094" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960095" visible="true" weight="0.31340873" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956383" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32956383" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039905" side_tool="true" weight="0.39983845" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956383" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956383" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32956383" />
+      <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bin" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sspai.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/upload/face-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/upload/face-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/upload/topic_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/upload/topic_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ArticleDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CommentDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Letter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Like.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/TopicServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="260">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/BaseServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="598">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/MyBatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ActicleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/EncodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -290,12 +881,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>sspai02:war exploded</last-edited>
+          <last-edited>sspai:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.5" />
+                <option value="0.28400734" />
               </list>
             </option>
           </splitter-proportions>
@@ -303,11 +893,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (sspai02)|Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28400734" />
               </list>
             </option>
           </splitter-proportions>
@@ -318,7 +908,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28400734" />
               </list>
             </option>
           </splitter-proportions>
@@ -330,7 +920,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28400734" />
               </list>
             </option>
           </splitter-proportions>
@@ -338,12 +928,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sspai02</last-edited>
+          <last-edited>sspai</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28400734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -355,7 +956,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28400734" />
               </list>
             </option>
           </splitter-proportions>

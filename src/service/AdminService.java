@@ -4,6 +4,9 @@ import dao.AdminDAO;
 import entity.Admin;
 import util.MyBatisUtil;
 
+/**
+ * @author ysh
+ */
 public class AdminService {
 
 	private static AdminService instence;
