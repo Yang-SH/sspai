@@ -82,10 +82,12 @@
                         <p>分类管理</p>
                     </a>
                 </li>
-                <li ><a href="toSearch.adminAction"> <i
-							class="ti-search"></i>
-							<p>查询</p>
-					</a></li>
+                <li >
+                    <a href="toSearch.adminAction"> 
+                        <i class="ti-search"></i>
+						<p>查询</p>
+                    </a>
+                </li>
             </ul>
     	</div>
     </div>
